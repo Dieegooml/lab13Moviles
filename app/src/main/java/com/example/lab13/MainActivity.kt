@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.example.lab13.ejercicios.caja
 import com.example.lab13.ejercicios.cambioColor
+import com.example.lab13.ejercicios.cambioContenido
 import com.example.lab13.ejercicios.tamanoPosicion
 import com.example.lab13.ui.theme.Lab13Theme
 
@@ -15,7 +16,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Lab13Theme {
-                tamanoPosicion()
+                cambioContenido()
             }
         }
     }
