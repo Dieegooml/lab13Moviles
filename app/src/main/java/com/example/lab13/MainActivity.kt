@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.example.lab13.ejercicios.caja
+import com.example.lab13.ejercicios.cambioColor
 import com.example.lab13.ui.theme.Lab13Theme
 
 class MainActivity : ComponentActivity() {
@@ -13,7 +14,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Lab13Theme {
-                caja()
+                cambioColor()
             }
         }
     }
